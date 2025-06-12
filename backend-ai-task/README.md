@@ -1,6 +1,11 @@
 # Backend API - JSONPlaceholder Clone
 
 All tests are passing.
+![Screenshot 2025-06-12 095553](https://github.com/user-attachments/assets/c8cda99e-b152-42af-8b06-530e6dfb94e3)
+
+Docker-compose is functional
+![Screenshot 2025-06-12 103739](https://github.com/user-attachments/assets/29cd86ba-d701-47bd-9250-788854c41880)
+
 
 This is a Spring Boot application that replicates the behavior of JSONPlaceholder with added features like JWT authentication and PostgreSQL database support.
 
