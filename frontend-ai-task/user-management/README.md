@@ -19,10 +19,12 @@ A responsive React + TypeScript application for displaying and managing user dat
 ## Screenshots
 
 ### User List Table
-![User List Table](./screenshots/user-list.png)
+![Screenshot 2025-06-13 111033](https://github.com/user-attachments/assets/8d7b7d0d-b6c0-4406-8c2d-fa6f4de65b79)
+
 
 ### User Detail Modal
-![User Detail Modal](./screenshots/user-modal.png)
+![Screenshot 2025-06-13 111023](https://github.com/user-attachments/assets/2643febd-acb3-443c-96eb-b60ac216f3b9)
+
 
 > **Note:** Place your screenshots in a `screenshots/` folder inside the project root. Example: `user-management/screenshots/user-list.png`
 
