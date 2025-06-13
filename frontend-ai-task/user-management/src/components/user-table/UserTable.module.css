@@ -1,0 +1,85 @@
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border-radius: 12px;
+}
+
+.header {
+  display: table-row;
+  background: #f5f7fa;
+  font-weight: 600;
+  color: #333;
+}
+
+.row {
+  display: table-row;
+  transition: background 0.2s;
+}
+
+.row:hover {
+  background: #f0f4ff;
+}
+
+.cell {
+  display: table-cell;
+  padding: 1rem 0.75rem;
+  vertical-align: middle;
+  min-width: 120px;
+  cursor: pointer;
+}
+
+.name {
+  font-weight: 500;
+  color: #1a237e;
+}
+
+.email {
+  font-size: 0.95em;
+  color: #607d8b;
+}
+
+.deleteBtn {
+  background: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.deleteBtn:hover {
+  background: #b71c1c;
+}
+
+@media (max-width: 700px) {
+  .table, .header, .row, .cell {
+    display: block;
+  }
+  .row {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    background: #fff;
+  }
+  .cell {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    min-width: unset;
+    cursor: pointer;
+  }
+  .header {
+    display: none;
+  }
+} 

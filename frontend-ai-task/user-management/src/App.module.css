@@ -1,0 +1,65 @@
+.appRoot {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f5f7fa 0%, #e3e9f7 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 2.5rem 1rem 1.5rem 1rem;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.2rem;
+  color: #1a237e;
+  font-weight: 700;
+}
+.header p {
+  color: #607d8b;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.center {
+  text-align: center;
+  color: #1a237e;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+.centerError {
+  text-align: center;
+  color: #e53935;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.2rem 0 1.5rem 0;
+  color: #607d8b;
+  font-size: 1rem;
+  background: none;
+}
+
+@media (max-width: 700px) {
+  .header h1 {
+    font-size: 1.4rem;
+  }
+  main {
+    padding: 1rem 0.2rem 1.5rem 0.2rem;
+  }
+} 
